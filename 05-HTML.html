@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .result {
+      color: red;
+      font-size: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <h1>Olá mundo!</h1>
+  <input id="msg-input" type="text" />
+  <p class="result"></p>
+  <script>
+    const h1 = document.querySelector('h1')
+    const input = document.querySelector('#msg-input')
+    const result = document.querySelector('.result')
+
+    result.class = 'result'
+    h1.textContent = 'Outro texto qualquer'
+
+    input.oninput = () => result.textContent = input.value.toUpperCase()
+    // input.addEventListener('input', () => {
+    //   console.log(input.value)
+    // })
+  </script>
+</body>
+</html>

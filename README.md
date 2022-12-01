@@ -1,2 +1,2 @@
 # trilha-dev-2022.2
-Codigos do dia 16/11/2022
+Códigos criados para na reunião da Trilha Dev da Pixel no dia 16/11/2022
